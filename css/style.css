@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial;
+}
+
+p {
+
+}
+
+html {
+    /*
+    border: 1px solid red;
+     */
+}
+
+.container {
+    max-width: 1200px;
+    /*
+    border: 2px dotted olive;
+     */
+    margin: 0 auto;
+}
+
+header {
+    color: #fff;
+    background-color: #000;
+    height: 40px;
+
+    border: 1px solid blue;
+
+    padding: 0px 400px;
+}
+
+.logo {
+    float: left;
+    line-height: 40px;
+}
+
+.nav-menu {
+    float: right;
+    line-height: 40px;
+}
+
+.nav-menu ul li{
+    display: inline-block;
+    list-style-type:none;
+}
+
+.box-one {
+    background-color: #F5F5F5;
+    height: 500px;
+    border: 1px solid green;
+    position: relative;
+}
+
+.chair {
+    height: 500px;
+    border: 1px solid green;
+}
+
+img {
+    border: 1px dotted deeppink;
+    height: 85%;
+    width: 32%;
+    position: absolute;
+    top: 68px;
+    left: 360px;
+}
+
+.box-two {
+    background-color: #fff;
+    height: 350px;
+    padding: 10px;
+    /*
+    border: 1px solid deeppink;
+     */
+}
+
+.container-two {
+    border: 1px solid red;
+}
+
+.container-two-1 {
+    border: 1px solid deeppink;
+    width: 310px;
+    height: 230px;
+    float: left;
+    margin: 30px;
+}
+
+.container-two-2 {
+    border: 1px solid chartreuse;
+    width: 310px;
+    height: 230px;
+    float: left;
+    margin: 30px;
+}
+
+.container-two-3 {
+    border: 1px solid brown;
+    width: 310px;
+    height: 230px;
+    float: left;
+    margin: 30px;
+}
+
+.box-three {
+    background-color: #ccc;
+    height: 720px;
+    /*
+    border: 1px solid yellow;
+     */
+}
+
+.box-four {
+    background-color: #fff;
+    height: 550px;
+    /*
+    border: 1px solid deepskyblue;
+     */
+}
+
+footer {
+    background-color: #fff;
+    height: 100px;
+    /*
+    border: 1px solid black;
+     */
+}
