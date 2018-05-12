@@ -102,11 +102,20 @@ header {
 
 .header-nav ul {
     list-style: none;
+    padding-top: 13px;
 }
 
 .header-nav ul li {
     display: inline-block;
-    padding: 10px;
+    padding-right: 74px;
+}
+
+.header-nav ul li:nth-child(1) {
+    padding-right: 44px;
+}
+
+.header-nav ul li:nth-child(2) {
+    padding-right: 30px;
 }
 
 .slider {
