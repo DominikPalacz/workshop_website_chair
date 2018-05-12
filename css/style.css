@@ -83,6 +83,17 @@ header {
 
 .logo {
     float: left;
+    font-size: 15px;
+    padding-left: 69px;
+    padding-top: 13px;
+}
+
+.logo p{
+    display: inline-block;
+}
+
+.logo p:nth-child(2) {
+    color: #27C5A9;
 }
 
 .header-nav {
