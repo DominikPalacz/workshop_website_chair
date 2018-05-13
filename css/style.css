@@ -266,6 +266,7 @@ header {
     margin: 12px 10px;
     font-size: 12px;
     color: #666;
+    overflow: auto;
 }
 
 .text h2 {
@@ -518,11 +519,78 @@ sup {
     height: 530px;
 }
 
+.p-foorm {
+    width: 320px;
+    font-size: 21px;
+    display: inline-block;
+    border-bottom: 7px solid #27c5a9;
+    padding: 6px;
+    position: relative;
+    left: 67px;
+    top: 26px;
+}
+
 .container-form {
     width: 1200px;
     height: 530px;
     margin: auto;
-    border: 1px dotted red;
+}
+
+.form-left {
+    border: 2px dotted red;
+}
+
+.message {
+    border: 1px solid #27c5a9;
+    padding: -3px;
+    height: 185px;
+    width: 631px;
+}
+
+
+.form-left {
+    border: 1px solid #27c5a9;
+    display: block;
+    font-size: 54px;
+    margin: 13px;
+    position: relative;
+    float: left;
+    top: 61px;
+    left: 59px;
+}
+
+.form img {
+    float: right;
+    position: relative;
+    top: -137px;
+    right: 155px;
+}
+
+#check {
+    position: relative;
+    top: 106px;
+    left: -126px;
+    float: right;
+    border: 1px solid #27c5a9;
+    height: 48px;
+}
+
+.text-p {
+    color: #989898;
+    float: right;
+    position: relative;
+    top: -102px;
+    font-size: 19px;
+    width: 300px;
+    right: 77px;
+}
+
+.form-button {
+    height: 72px;
+    width: 340px;
+    font-size: 40px;
+    position: relative;
+    top: 372px;
 }
 
 /* ------------------------------------------------------------------------ footer */
