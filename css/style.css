@@ -136,7 +136,9 @@ header {
     width: 1200px;
     height: 504px;
     margin: auto;
+    /*
     border: 1px dotted red;
+     */
     position: relative;
 }
 
@@ -186,6 +188,7 @@ header {
 .text-slider {
     padding-top: 40px;
     line-height: 21px;
+    color: #666;
 }
 
 .button-slider {
@@ -209,23 +212,74 @@ header {
     width: 1200px;
     height: 350px;
     margin: auto;
+    /*
     border: 1px dotted red;
+     */
+}
+
+.container-box-center {
+    padding: 15px 54px;
 }
 
 .left {
+    /*
     border: 1px dotted darkblue;
+     */
     float: left;
+    padding: 13px;
 }
 
+.text-in-left {
+    position: absolute;
+    background-color: rgba(255,255,255,0.5);
+    height: 60px;
+    width: 330px;
+    margin-top: 151px;
+}
+
+
+.text-in-left p {
+    line-height: 25px;
+    border-bottom: 7px solid #27C5A9;
+    display: inline-block;
+    margin: 8px 10px;
+    width: 140px;
+}
 .center {
+    /*
     border: 1px dotted blueviolet;
+     */
     float: left;
+    padding: 13px 16px;
 }
 
 .text {
-    border: 1px dotted blue;
+    border: 1px solid #000;
     float: left;
-    width: 329px;
+    width: 339px;
+    height: 255px;
+    padding: 15px;
+    margin: 12px 10px;
+    font-size: 12px;
+    color: #666;
+}
+
+.text h2 {
+    line-height: 25px;
+    border-bottom: 7px solid #27C5A9;
+    display: inline-block;
+    margin: 8px 10px;
+}
+
+
+.p1 {
+    line-height: 21px;
+    padding-top: 5px;
+}
+
+.p2 {
+    line-height: 20px;
+    padding-top: 19px;
 }
 
 .box-three {
