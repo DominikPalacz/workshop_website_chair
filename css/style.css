@@ -528,7 +528,7 @@ sup {
 /* ------------------------------------------------------------------------ footer */
 
 footer {
-    background-color: azure;
+    background-color: #fff;
     height: 123px;
 }
 
@@ -540,12 +540,24 @@ footer {
 
 .copy {
     float: left;
-}
-
-.icon {
-    float: right;
+    padding: 57px;
+    letter-spacing: 2px;
+    position: relative;
+    left: 8px;
+    color: #989898;
 }
 
 .logo-footer {
     float: right;
+    padding: 54px;
+    font-size: 20px;
+    color: #989898;
+    letter-spacing: 1.5px;
+    position: relative;
+    right: 20px;
+}
+
+.icon {
+    float: right;
+    padding: 42px 29px;
 }
