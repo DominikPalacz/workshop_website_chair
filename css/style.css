@@ -404,34 +404,12 @@ sup {
     padding: 8px;
 }
 
-.bay-3 p {
-    position: absolute;
-    background-color: #e3e3e3;
-    height: 44px;
-    width: 326px;
-    margin-top: 160px;
-    color: #a8a8a8;
-    left: 0px;
-    top: 168px;
-    padding: 10px;
-}
-
 .bay-2 p{
     position: absolute;
     background-color: #F1F1F1;
     height: 45px;
     width: 326px;
     margin-top: 101px;
-    color: #787878;
-    padding: 10px;
-}
-
-.bay-4 p {
-    position: absolute;
-    background-color: #F1F1F1;
-    height: 45px;
-    width: 327px;
-    margin-top: 189px;
     color: #787878;
     padding: 10px;
 }
