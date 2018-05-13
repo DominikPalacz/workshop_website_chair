@@ -414,6 +414,26 @@ sup {
     padding: 10px;
 }
 
+.bay-3 p{
+    position: absolute;
+    background-color: #e3e3e3;
+    height: 45px;
+    width: 326px;
+    margin-top: 146px;
+    color: #a8a8a8;
+    padding: 10px;
+}
+
+.bay-4 p{
+    position: absolute;
+    background-color: #F1F1F1;
+    height: 45px;
+    width: 326px;
+    margin-top: 190px;
+    color: #787878;
+    padding: 10px;
+}
+
 .button {
     background-color: #27C5A9;
     display: inline-block;
