@@ -66,6 +66,8 @@
 
 }
 
+/* ------------------------------------------------------------------------ header */
+
 header {
     background-color: #000;
     height: 40px;
@@ -203,6 +205,8 @@ header {
     line-height: 52px;
 }
 
+/* ------------------------------------------------------------------------ sekcja 2 */
+
 .box-two {
     background-color: #FDFDFD;
     height: 350px;
@@ -282,6 +286,8 @@ header {
     padding-top: 19px;
 }
 
+/* ------------------------------------------------------------------------ sekcja 3 */
+
 .box-three {
     background-color: #F1F1F1;
     height: 725px;
@@ -291,29 +297,160 @@ header {
     width: 1200px;
     height: 725px;
     margin: auto;
-    border: 1px dotted red;
+    border: 1px dotted #F1F1F1; /* Gdy usunę obramowanie to mi się rozwalają okna. */
+}
+
+.p-main {
+    line-height: 38px;
+    font-size: 22px;
+    position: relative;
+    left: 65px;
+    border-bottom: 5px solid #27C5A9;
+    width: 320px;
+    margin-top: 38px;
+    /* display: inline-block; */
 }
 
 .plan-basic {
-    border: 2px solid #000;
-    width: 300px;
+    border: 2px solid #ccc;
+    width: 330px;
     height: 500px;
     float: left;
+    margin: 10px;
+    position: relative;
+    left: 54px;
+    top: 68px;
+    background-color: #f9f9f9;
+}
+
+.plan-basic p {
+    text-align: center;
+    padding-top: 26px;
+    font-size: 23px;
+    color: #27C5A9;
+}
+
+sup {
+    font-size: 17px;
+    position: absolute;
+}
+
+
+.big-circle {
+    height: 55px;
+    width: 55px;
+    border-radius: 50%;
+    background-color: white;
+    border: 2px solid #ccc;
+    position: absolute;
+    top: -39px;
+    left: 135px;
+}
+
+.small-circle {
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    background-color: #ccc;
+    position: absolute;
+    top: -24px;
+    left: 150px;
+}
+
+.round {
+    width: 130px;
+    height: 130px;
+    background-color: #fff;
+    position: relative;
+    border-radius: 50%;
+    top: 25px;
+    left: 98px;
+    border: 2px solid #ccc;
+    display: inline-block;
+}
+
+.round p:last-child {
+    color: #ccc;
+    display: inline-block;
+    font-size: 17px;
+    position: relative;
+    left: 22px;
+    top: -25px;
+}
+
+.round p:first-child {
+    color: #ccc;
+    display: inline-block;
+    font-size: 45px;
+    position: relative;
+    left: 31px;
+}
+
+.round p:nth-child(2) {
+    color: #ccc;
+    display: inline-block;
+    font-size: 45px;
+    position: relative;
+    left: 28px;
+}
+
+.bay p:first-child{
+    position: absolute;
+    background-color: #e3e3e3;
+    height: 42px;
+    width: 326px;
+    margin-top: 59px;
+    color: #a8a8a8;
+    padding: 8px;
+}
+
+.bay-2 p{
+    position: absolute;
+    background-color: #F1F1F1;
+    height: 45px;
+    width: 326px;
+    margin-top: 101px;
+    color: #787878;
+    padding: 10px;
+}
+
+.button {
+    background-color: #27C5A9;
+    display: inline-block;
+    padding-top: 7px;
+    border-radius: 10px;
+    position: relative;
+    left: 103px;
+    top: 260px;
+    height: 33px;
+    width: 123px;
+    text-align: center;
+    color: #fff;
 }
 
 .plan-standard {
-    border: 2px solid #000;
-    width: 300px;
+    border: 2px solid #ccc;
+    width: 330px;
     height: 500px;
     float: left;
+    margin: 10px;
+    position: relative;
+    left: 65px;
+    top: 68px;
 }
 
 .plan-advance {
-    border: 2px solid #000;
-    width: 300px;
+    border: 2px solid #ccc;
+    width: 330px;
     height: 500px;
     float: left;
+    margin: 10px;
+    position: relative;
+    left: 76px;
+    top: 68px;
 }
+
+/* ------------------------------------------------------------------------ form */
 
 .form {
     background-color: #fff;
@@ -326,6 +463,8 @@ header {
     margin: auto;
     border: 1px dotted red;
 }
+
+/* ------------------------------------------------------------------------ footer */
 
 footer {
     background-color: azure;
