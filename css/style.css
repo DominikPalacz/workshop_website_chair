@@ -449,7 +449,7 @@ sup {
 }
 
 .plan-standard {
-    border: 2px solid #ccc;
+    border: 2px solid #27C5A9;
     width: 330px;
     height: 500px;
     float: left;
@@ -457,6 +457,47 @@ sup {
     position: relative;
     left: 65px;
     top: 68px;
+    background-color: #27C5A9;
+}
+
+.plan-standard p {
+    color: #fff;
+}
+
+.plan-standard .big-circle {
+    background-color: #27C5A9;
+    border: 2px solid #27C5A9;
+}
+
+.plan-standard .round p {
+    color: #27C5A9;
+}
+
+.plan-standard .bay-2 p {
+    color: #787878;
+}
+
+.plan-standard .big-circle {
+    background-color: #27C5A9;
+    border: 2px solid #27C5A9;
+}
+
+.plan-standard .small-circle {
+    background-color: #F9F9F9;
+}
+
+.plan-standard .button {
+    background-color: #fff;
+    color: #27C5A9;
+}
+
+.plan-standard .bay p:first-child {
+    background-color: #fff;
+}
+
+.plan-standard .bay-3 p {
+    background-color: #fff;
+    color: #a8a8a8;
 }
 
 .plan-advance {
