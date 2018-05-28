@@ -98,10 +98,60 @@ header {
     color: #27C5A9;
 }
 
+
 .header-nav {
-    float: right;
+    width: 100%;
+    padding: 10px;
+    text-align: right;
+
+}
+ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 50px;
 }
 
+ul a {
+    float: left;
+    color: white;
+    text-decoration: none;
+    display: block;
+
+}
+
+ul > li {
+    float: right;
+    width: 100px;
+    height: 30px;
+
+}
+
+ul > li > ul {
+    display: none;
+}
+
+ul > li > ul > li {
+    background-color: black;
+    position: relative;
+}
+
+ul > li > ul > li {
+    background-color: black;
+    position: relative;
+    padding: 5px;
+    width: 120px;
+    right: 17px;
+    top: 23px;
+}
+
+ul > li:hover > ul {
+    z-index: 1;
+    display: block;
+}
+
+/*
 .header-nav ul {
     list-style: none;
     padding-top: 13px;
@@ -119,7 +169,7 @@ header {
 .header-nav ul li:nth-child(2) {
     padding-right: 30px;
 }
-
+*/
 /* ------------------------------------------------------------------------ slider */
 
 .slider {
