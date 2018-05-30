@@ -153,12 +153,12 @@ ul > li > ul > li {
     right: 17px;
     top: 23px;
 }
-/*
+
 ul > li:hover > ul {
     z-index: 1;
     display: block;
 }
-*/
+
 /*
 .header-nav ul {
     list-style: none;
@@ -297,8 +297,18 @@ ul > li:hover > ul {
     height: 60px;
     width: 330px;
     margin-top: 151px;
+    display: block;
 }
 
+.text-in-left:hover {
+    position: absolute;
+
+    background-color: rgba(255,255,255,0.5);
+
+    height: 60px;
+    width: 330px;
+    margin-top: 151px;
+}
 
 .text-in-left p {
     line-height: 25px;
