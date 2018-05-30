@@ -145,12 +145,12 @@ ul > li > ul > li {
     right: 17px;
     top: 23px;
 }
-
+/*
 ul > li:hover > ul {
     z-index: 1;
     display: block;
 }
-
+*/
 /*
 .header-nav ul {
     list-style: none;
